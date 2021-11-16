@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            background-color: rgb(26, 19, 19);
+            transition: 0.8s;
+            -webkit-transition: 0.8s;
+            -moz-transition: 0.8s;
+            -ms-transition: 0.8s;
+            -o-transition: 0.8s;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: "Open Sans", sans-serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-top: 25vh;
+            text-align: center;
+            margin-bottom: 1.5%;
+            color: rgb(151, 72, 72);
+        }
+
+        .container {
+            width: 500px;
+        }
+
+        .result {
+            width: 59.1%;
+        }
+
+        input {
+            padding: 25px;
+            color: rgb(17, 16, 16);
+            font-size: 1em;
+            cursor: pointer;
+            width: 70px;
+            background-color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+        }
+
+        .r1 {
+            margin-bottom: 5px;
+        }
+
+        .r2 {
+            margin-bottom: 5px;
+        }
+
+        .r3 {
+            margin-bottom: 5px;
+        }
+
+        .r4 {
+            margin-bottom: 5px;
+        }
+
+        .r5 {
+            margin-bottom: 5px;
+        }
+
+        .r6 {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            background-color: rgb(255, 255, 255);
+        }
+
+        input[type="button"]:hover {
+            background-color: rgb(179, 178, 192);
+
+        }
+
+        .clear {
+            background-color: rgb(255, 42, 42);
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="wrapper">
+            <div class="container">
+                <h1>CALCULATOR</h1>
+
+                <div class="r1">
+                    <input type="text" name="result" class="result" id="result" value="" readonly />
+                    <input type="button" value="AC" onclick="clearScreen()" id="clear" />
+                </div>
+                <div class="r2">
+                    <input type="button" value="1" onclick="display(1)" id="one" />
+                    <input type="button" value="2" onclick="display(2)" id="two" />
+                    <input type="button" value="3" id="three" onclick="display(3)" />
+                    <input type="button" value="+" onclick="display('+')" />
+                </div>
+                <div class="r3">
+                    <input type="button" value="4" id="four" onclick="display(4)" />
+                    <input type="button" value="5" id="five" onclick="display(5)" />
+                    <input type="button" value="6" id="six" onclick="display(6)" />
+                    <input type="button" value="-" onclick="display('-')" />
+                </div>
+                <div class="r4">
+                    <input type="button" value="7" id="seven" onclick="display(7)" />
+                    <input type="button" value="8" id="eight" onclick="display(8)" />
+                    <input type="button" value="9" id="nine" onclick="display(9)" />
+                    <input type="button" value="x" onclick="display('*')" />
+                </div>
+                <div class="r5">
+                    <input type="button" value="/" onclick="display('/')" />
+
+                    <input type="button" value="0" id="zero" onclick="display(0)" />
+                    <input type="button" value="." class="dot" onclick="display('.')" />
+                    <input type="button" value="%" onclick="display('%')">
+                </div>
+                <div class="r6">
+                    <input type="button" value="=" onclick="result.value = eval(result.value)" />
+                    <!-- <input type="button" value="^" onclick="liveScreen('**')"> -->
+                </div>
+
+            </div>
+        </div>
+        <script src="./calcscript.js"></script>
+    </center>
+</body>
+</html>

@@ -1,0 +1,143 @@
+h1{
+    text-align: center;    
+    color:white;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+}
+
+div{
+    border: none;
+    height: 149px;
+    /*border-width: 5px;
+    border-color: black;*/
+    width: 6%;
+    float:left;
+}
+.box1{
+    background-color: rgb(102, 5, 102);
+    margin-top:1%;
+    margin-left: 32%;
+}
+.box2{
+    background-color: rgb(17, 104, 39);
+    margin-top:1%;
+    margin-left: 1.4%;
+}
+
+.box3{
+    background-color: rgb(50, 34, 107);
+    margin-top: 1%;
+    margin-left: 1.4%;
+}
+
+.box4{
+    background-color: rgb(186, 219, 36);
+    margin-top: 1%;
+    margin-left: 1.4%;
+}
+
+.box5{
+    background-color: rgb(235, 107, 52);
+    margin-top: 1%;
+    margin-left: 1.4%;
+}
+
+.box6{
+    background-color: rgb(167, 117, 42);
+    margin-top: 14%;
+    margin-left: -43%;
+    
+}
+
+.box7{
+    background-color: rgb(158, 129, 129);
+    margin-top: 14%;
+    margin-left: -35.6%;
+}
+
+.box8{
+    background-color: rgb(30, 23, 31);
+    margin-top: 14%;
+    margin-left: -28.3%;
+}
+
+.box9{
+    background-color: rgb(247, 135, 7);
+    margin-top: 14%;
+    margin-left: -20.8%;
+}
+
+.box10{
+    background-color: rgb(196, 41, 96);
+    margin-top: 14%;
+    margin-left: -13.2%;
+}
+
+.box11{
+    background-color: rgb(20, 167, 111);
+    margin-top: 14%;
+    margin-left: -5.8%;
+}
+
+.box12{
+    background-color: rgba(235, 52, 52);
+    margin-left: 1.4%;
+    margin-top: 14%;
+}
+
+.box13{
+    background-color: rgb(129, 72, 135);
+    margin-left: -58.6%;
+    margin-top: 27%;
+}
+
+.box14{
+    background-color: rgb(235, 217, 52);
+    margin-left: -50.6%;
+    margin-top: 27%;
+}
+
+.box15{
+    background-color: rgb(72, 73, 135);
+    margin-left: -43.2%;
+    margin-top: 27%;
+}
+
+.box16{
+    background-color: rgb(188, 201, 181);
+    margin-left: -35.9%;
+    margin-top: 27%;
+}
+
+.box17{
+    background-color: rgb(72, 135, 123);
+    margin-left: -28.2%;
+    margin-top: 27%;
+}
+
+.box18{
+    background-color: rgb(64, 48, 3);
+    margin-left: -20.8%;
+    margin-top: 27%;
+}
+
+.box19{
+    background-color: rgb(64, 3, 18);
+    margin-left: -13.2%;
+    margin-top: 27%;
+}
+
+.box20{
+    background-color: rgb(44, 43, 71);
+    margin-left: -6%;
+    margin-top: 27%;
+}
+
+.box21{
+    background-color: rgb(13, 180, 13);
+    margin-top: 27%;
+    margin-left: 1.4%;
+}

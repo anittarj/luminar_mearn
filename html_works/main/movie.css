@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+header{
+    width: 100%;
+    height: 50px;
+    color: rgb(213, 212, 221);
+    background-color: darkblue;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: large;
+    display:flex;
+}
+
+header a{
+    color: darkgrey;
+    padding: 55px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: rgb(7, 3, 0);
+}
+
+.row{
+    width: 100%;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col{
+    width: 20%;
+    height: 700px;
+    margin-top: 25px;
+    margin-left: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col img{
+    width: 85%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+p{
+    color: rgb(253, 253, 253);
+    padding: 15px;
+}
+
+.top{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.rating{
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.headings{
+    color: white;
+    text-align: center;
+    font-size: large;
+}

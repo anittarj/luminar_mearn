@@ -1,0 +1,40 @@
+.parent{
+    background-color: burlywood;
+    width:550px;
+    height: 310px;
+    display: flex;
+    /*justify-content:space-between ;*/
+    /*justify-content: flex-end;*/
+    /*align-items: center;*/ /*when used along with the one below gets the items to the center*/
+    /*justify-content: space-around;*/
+}
+
+.col{
+    width: 50px;
+    height: 200px;
+    padding: 10px;
+}
+.col1{
+    background-color: rgb(184, 39, 107);
+    flex: 1;
+}
+
+.col2{
+    background-color: rgb(139, 149, 182);
+    flex: 2;
+}
+
+.col3{
+    background-color: rgb(211, 103, 40);
+    flex: 3;
+}
+
+.col4{
+    background-color: rgb(125, 172, 40);
+    flex: 4;
+}
+
+.col5{
+    background-color: rgb(30, 53, 129);
+    flex: 5;
+}

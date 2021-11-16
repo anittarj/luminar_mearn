@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Kaisei+Tokumin&family=Teko:wght@700&display=swap');
+div{
+    border: 2px solid rgb(10, 10, 10);
+    font-family: 'Allison', cursive;
+    width: 65%;
+    background-color:rgb(199, 157, 127);
+}
+
+body{
+    background-color: skyblue;
+    background-image:url(./welcome.jpg) ;
+    background-size: cover;
+}

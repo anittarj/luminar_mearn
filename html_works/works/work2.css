@@ -1,0 +1,40 @@
+h1{
+    color:rgb(0, 0, 0)
+}
+
+body{
+    text-align: center;
+    margin-top: 100px;
+}
+
+fieldset {
+    /*font-size:12px;
+    padding:10px;*/
+    width:250px;
+    line-height: 1.8;
+    margin-left: 628.5px;
+    border-radius: 5px;
+    border-color: rgba(222, 220, 220);
+}
+
+.two{
+    width:250px;
+    line-height: 0.1;
+    margin-left: 628.5px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    padding: 3px 75px;
+    border: thin 1.2px;
+    
+}
+
+.box3{
+    margin-top: 12%;
+}
+
+
+

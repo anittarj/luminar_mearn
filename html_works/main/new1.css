@@ -1,0 +1,19 @@
+/* selectors
+class tag
+id*/
+
+h1{
+    color: rgb(182, 63, 63);
+    text-align: center;
+}
+#second{
+    color: rgb(194, 71, 71);
+    text-align: center;
+}
+.cls{
+    color: rgb(105, 18, 18);
+    text-align: center;
+}
+
+/* # used to select id*/
+/* . used to select class*/

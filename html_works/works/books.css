@@ -1,0 +1,11 @@
+div{
+    width:23%;
+    height: 35%;
+    border-color: burlywood;
+    border-style: none;
+    float:left
+}
+img{
+    width:55%;
+    height: 5%;
+}
